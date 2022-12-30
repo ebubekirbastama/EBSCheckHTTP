@@ -65,6 +65,9 @@ function EBSCurlGet($Url) {
         $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     }
     curl_close($ch);
+    if (empty($http_code)) {
+        $http_code = "Veri Yok";
+    }
     return $http_code;
 }
 
@@ -80,6 +83,9 @@ function EBSCurlReturnUrl($Url) {
         $info = curl_getinfo($ch);
     }
     curl_close($ch);
+    if (empty($info["redirect_url"])) {
+        return "Veri Yok";
+    }
     return $info["redirect_url"];
 }
 
