@@ -2,6 +2,9 @@
 EBSCheckHTTP
 
 Tek Yapmanız gereken Local Host ve ya Sunucuya atıp kullanmak :)
+<img src="https://raw.githubusercontent.com/ebubekirbastama/EBSCheckHTTP/main/s1.png">
+<img src="https://raw.githubusercontent.com/ebubekirbastama/EBSCheckHTTP/main/s2.png">
+<img src="https://raw.githubusercontent.com/ebubekirbastama/EBSCheckHTTP/main/s3.png">
 # Bizlere Sponsor olarak Destek Verebilirsiniz.
 
 ✨ GitHub Sponsor ✨
